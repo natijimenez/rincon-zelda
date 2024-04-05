@@ -1,0 +1,64 @@
+/* estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#contenido-landing {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* estilos sección header */
+.seccion-header {
+    background-image: url('../imgs/banner-zelda.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.seccion-header-texto {
+    color: #fff;
+    position: absolute;
+    bottom: 0.8em;
+    right: 0.8em;
+    text-align: right;
+    padding: 0 2em 2em 0;
+}
+
+/* estilos sección products */
+.seccion-productos {
+    padding: 10em 0;
+    width: 80%;
+    margin: auto;
+}
+.producto {
+    position: relative;
+    padding: 0 30%;
+}
+.seccion-productos img {
+    max-width: 35%;
+}
+.contenedor-texto-productos {
+    /* display: inline-block; */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 65%;
+}
+.contenedor-texto-productos p {
+    color: rgb(69, 71, 70);
+    font-size: 1em;
+}
+.precio-juego {
+    font-weight: 900;
+}
+
+/* estilos sección footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px 0;
+}
